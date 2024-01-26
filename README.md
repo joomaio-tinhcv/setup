@@ -8,7 +8,7 @@ cd
 ```
 # Run bash script
 ```
-sudo bash setup.sh -user user-name -fpm fpm-container-name -fpm_path folder_path_in_container
+sudo bash setup.sh -user user-name -fpm fpm-container-name -web_root_path folder_path_in_container
 ```
 with
 user-name: permission for starter work, ex: www-data
