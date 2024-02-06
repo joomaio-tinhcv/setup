@@ -92,6 +92,10 @@ if [ ! -d "config" ]; then
     mkdir -p "config"
 fi
 
+if [ ! -d "storage" ]; then
+    mkdir -p "storage"
+fi
+
 cp -r config.sample/* config
 
 echo "Copy folder config done."
